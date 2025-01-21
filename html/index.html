@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To GETHIGH GALAXY Banking</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #bankui, #close, #container, #logo, #label, #btn
+        {display: none;}
+   </style>
+</head>
+
+<body>
+
+    <div class="container" id="bankui">
+        <button class="close">X</button>
+        <div class="row">
+            <div class="column left">
+                <div class="logo-area">
+                    <img src="img/logo.png" class="logo">
+                </div>
+                <div class="account-infomoneyin">
+                    <div class="welcome">ยอดเงินในตัว</div>
+                    <div class="info-label"><i class="fas fa-dollar-sign"></i>
+                        <div class="moneyin"></div>
+                    </div>
+
+                </div>
+                <div class="account-info">
+                    <div class="welcome">ยอดเงินในบัญชี</div>
+                    <div class="info-label"><i class="fas fa-dollar-sign"></i>
+                        <div class="balance"></div>
+                    </div>
+
+                </div>
+                <div class="quick-actions">
+                    <div class="quick-msg">ถอดเงินด่วน</div>
+                    <button class="btn-quick" id="withdraw-1000">ถอดเงิน $1,000</button>
+                    <button class="btn-quick" id="withdraw-2500">ถอดเงิน $2,500</button>
+                    <button class="btn-quick" id="withdraw-5000">ถอดเงิน $5,000</button>
+                    <button class="btn-quick" id="withdraw-10000">ถอดเงิน $10,000</button>
+                    <button class="btn-quick" id="withdraw-25000">ถอดเงิน $25,000</button>
+                    <button class="btn-quick" id="withdraw-50000">ถอดเงิน $50,000</button>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="row-2nd">
+                    <div class="column-2nd b-right">
+                        <div class="account-services">
+                            <div class="label m-top">บริการทางการเงิน</div>
+                            <div class="deposit m-top-med">
+                                <div class="label-sm">ฝากเงิน</div>
+                                <input type="number" placeholder="จำนวนเงินที่ต้องการฝาก" id="depositval" class="inputs">
+                                <button class="btn" id="deposit">ฝาก</button>
+                            </div>
+                            <div class="withdraw m-top-big">
+                                <div class="label-sm">ถอนเงิน</div>
+                                <input type="number" placeholder="จำนวนเงินที่ต้องการถอน" id="withdrawval" class="inputs">
+                                <button class="btn" id="withdraw">ถอน</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-2nd">
+                        <div class="transfer-money">
+                            <div class="label m-top">โอนเงิน</div>
+                            <div class="input-section">
+                                <div class="label-sm m-top-med">รหัสผู้รับ</div>
+                                <input type="number" placeholder="0" id="idval" class="inputs">
+                            </div>
+                            <div class="input-section">
+                                <div class="label-sm m-top">จำนวนเงิน</div>
+                                <input type="number" placeholder="0" id="transferval" class="inputs">
+                            </div>
+                            <button class="btn" id="transfer">โอน</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="set">กด [E] เพื่อกดเงิน
+        
+    </div> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/b6ec58ae28.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
