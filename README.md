@@ -1,7 +1,4 @@
-## Support Discord
-https://discord.gg/AfYDUGW
-
-# orp-banking
+# five-m-banking
 Banking script created for ESX Framework that adds functionality to access the main banks and every ATM in the city without hard-coding every atm coordinate in like I see all too much.
 
 ## Features
@@ -11,12 +8,9 @@ Banking script created for ESX Framework that adds functionality to access the m
 - Clean, custom and simple NUI.
 - Different designed NUI's depending on what ATM you're at
 
-## Using orp-banking
+## Using five-m-banking
 - Clone or download the repository
 - Add a new folder in your resources called orp-banking
 - Add script files to orp-banking folder
 - In your server.cfg add start orp-banking with your other scripts
-
-## Preview
-https://streamable.com/0773w4
 
